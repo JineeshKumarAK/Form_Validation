@@ -1,0 +1,39 @@
+body{
+    background-image: url(/photos/lockimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mainbox{
+    padding: 10px 20px;
+   
+  
+    display: flex;
+    justify-content: center;
+}
+.textboxes{
+  
+    padding: 20px 40px;
+    width: 260px;
+}
+.textboxes,#password,#confirmpassword{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+}
+#signup{
+    padding: 10px;
+    color: white;
+
+}
+.form{
+    padding: 10px 20px;
+    background-color: rgba(9, 9, 8, 0.484);
+    border-radius: 10px;
+  
+}
+#submitbutton{
+    width: 100px;
+    height: 35px;
+}
+

@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(/photos/pexels-travis-blessing-1363876.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+    width: 100%;
+}
+.mainbox{
+    background-color: rgba(106, 56, 206, 0.435);
+    border-radius: 5px;
+    box-shadow: 20px 30px 35px rgba(0,0,0,.3);
+    overflow: hidden;
+    max-width: 100%;
+    width: 450px;
+
+}
+#signup{
+    border-bottom: 1px solid rgb(8, 8, 87);
+    text-align: center; 
+    font-size:20px; 
+}
+.textboxes{
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+.textboxes label{
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.textboxes input{
+    border:3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    display: block;
+    font-size: 14px;
+    padding:10px;
+    width: 100%;  
+}
+.textboxes input:hover{
+    background-color: rgb(202, 202, 221);
+}
+
+
+.textboxes input:focus{
+    outline: none;
+    border-color:black;
+}
+
+
+.textboxes small{
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+    font-size:15px;
+}
+.textboxes #resetpassword{
+    color: blue;
+    text-decoration: none;
+}
+#resetpassword:hover{
+    text-decoration: underline;
+}
+.form button{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: block;
+    font-size: 16px;
+    width:300px;
+    position: relative;
+    left: 77px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form button:hover{
+    background-color: rgb(207, 196, 221);
+    color: rgb(0, 0, 0);
+
+}
+.form button:active{
+    cursor:-webkit-grab;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+    <div class="mainbox">
+        <div id="signup">
+            <h1>SignUp</h1>
+        </div>
+        <form class="form" id="form">
+        <div class="textboxes">
+            <label>User Name</label>
+            <input type="text" id="username" name="User_Name" placeholder="Enter Your User Name">
+            <small id="small"></small>
+        </div>
+        <div class="textboxes">
+            <label>Email</label>
+            <input type="email" id="email" name="Email" placeholder="mail@gmail.com">
+            <small id="small1"></small>
+        </div>
+        <div class="textboxes">
+            <label>Password</label>
+            <input type="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" name="Password" placeholder="Password (Atleast 8 charecters)" onclick="psw()">
+            
+            <small id="small2"></small>
+            <small id="small4"></small>
+        </div>
+        <div class="textboxes">
+            <label>Password</label>
+            <input type="password" id="password2" name="Password2" placeholder="Confirm Password" onclick="psw1()">
+            <small id="small3"></small>
+        </div>
+        <div class="textboxes">
+            <a id="resetpassword" href="passwordreset.html">Reset Password</a>
+        </div>
+        <button id="button" onclick="hidd()">Submit</button>
+        </form>
+    </div>
+    <script src="/validating.js"></script>
+    <div class="secondarea">
+    </div>
+    
+</body>
+</html>
